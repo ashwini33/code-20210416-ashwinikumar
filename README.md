@@ -2,7 +2,7 @@
 1. Please download both the file code.py and health_data.json. You can also provide new file in that case please change the argument of function getOverWeightNumber("fileName").
 2. Make sure both code and json data is in the same folder.
 3. execute the program using 
-```python
+```bash
 >> python3 code.py
 ```
 4.  It will return the number of only overweight people as per specified in question. It will print the table with modified columns and also prints the number of overweight people. Finally, the program exports the modified table in a csv file.
