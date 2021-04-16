@@ -1,4 +1,4 @@
-# Assignment
+# Assessment
 1. Please download both the file code.py and health_data.json. You can also provide new file in that case please change the argument of function getOverWeightNumber("fileName").
 2. Make sure both code and json data is in the same folder.
 3. execute the program using 
