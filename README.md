@@ -10,7 +10,6 @@
 ### Example
 ```bash
 ashwini@debian:~/newtest$ git clone https://github.com/ashwini33/code-20210416-ashwinikumar
-
 Cloning into 'code-20210416-ashwinikumar'...
 remote: Enumerating objects: 9, done.
 remote: Counting objects: 100% (9/9), done.
@@ -18,14 +17,23 @@ remote: Compressing objects: 100% (7/7), done.
 remote: Total 9 (delta 1), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (9/9), done.
 
+```
+######
+```bash
 ashwini@debian:~/newtest$ ls
 code-20210416-ashwinikumar
-
+```
+#######
+```bash
 ashwini@debian:~/newtest$ cd code-20210416-ashwinikumar/
-
+```
+#######
+```bash
 ashwini@debian:~/newtest/code-20210416-ashwinikumar$ ls
 code.py  health_data.json  README.md
-
+```
+########
+```bash
 ashwini@debian:~/newtest/code-20210416-ashwinikumar$ python3 code.py
 
    Gender  HeightCm  WeightKg     BMI      BMICategory    HealthRisk
@@ -37,10 +45,14 @@ ashwini@debian:~/newtest/code-20210416-ashwinikumar$ python3 code.py
 5  Female       167        82  29.402       OverWeight  EnhancedRisk
 #################################################################
 Number of Over weight people is: 1
-
+```
+#####
+```bash
 ashwini@debian:~/newtest/code-20210416-ashwinikumar$ ls
 analysedData.csv  code.py  health_data.json  README.md
-
+```
+#####
+```bash
 ashwini@debian:~/newtest/code-20210416-ashwinikumar$ cat analysedData.csv 
 Gender,HeightCm,WeightKg,BMI,BMICategory,HealthRisk
 Male,171,96,32.831,ModeratelyObese,MediumRisk
@@ -50,3 +62,4 @@ Female,166,62,22.5,NormalWeight,LowRisk
 Female,150,70,31.111,ModeratelyObese,MediumRisk
 Female,167,82,29.402,OverWeight,EnhancedRisk
 ashwini@debian:~/newtest/code-20210416-ashwinikumar$ 
+```
